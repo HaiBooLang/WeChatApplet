@@ -39,9 +39,9 @@
 <view class="out">
     <view class="box1"></view>
     <view class="box2">
-        <root-portal>
+        <!-- <root-portal>
             <view class="mask"></view>
-        </root-portal>
+        </root-portal> -->
     </view>
 </view>
 
