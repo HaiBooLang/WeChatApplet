@@ -24,7 +24,8 @@
           border-radius="10"
           stroke-width="1"></progress>
 
-<scroll-view class="myScroll" scroll-x>
+<scroll-view class="myScroll"
+             scroll-x>
     <view class="row">1</view>
     <view class="row">2</view>
     <view class="row">3</view>
@@ -34,3 +35,27 @@
     <view class="row">7</view>
     <view class="row">8</view>
 </scroll-view>
+
+<view class="out">
+    <view class="box1"></view>
+    <view class="box2">
+        <root-portal>
+            <view class="mask"></view>
+        </root-portal>
+    </view>
+</view>
+
+<match-media min-width="300">
+    <view>符合条件显示</view>
+</match-media>
+
+<movable-area style="width: 400rpx; height: 400rpx; background-color: aliceblue; overflow: hidden;">
+    <movable-view style="width: 100rpx; height: 100rpx; background-color: darkturquoise;"
+                  direction="all"
+                  inertia="true"
+                  x="20rpx"
+                  y="20rpx"
+                  out-of-bounds="true">
+        <view>demo</view>
+    </movable-view>
+</movable-area>
