@@ -17,3 +17,8 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.class{
+  color: aqua;
+  border: cornflowerblue 1px solid;
+}
