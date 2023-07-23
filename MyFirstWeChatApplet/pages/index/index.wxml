@@ -7,3 +7,19 @@
         摸鱼
     </view>
 </view>
+
+<text user-select
+      decode> &lt; 112312 </text>
+
+<text>112312</text>
+
+<icon type="success"
+      size="100"
+      color="pink" />
+<icon type="search"
+      size="100"
+      color="pink" />
+<progress percent="50"
+          show-info
+          border-radius="10"
+          stroke-width="1"></progress>
