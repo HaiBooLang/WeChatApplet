@@ -1,24 +1,22 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+.box {
+    width: 200px;
+    height: 200px;
+    color: aquamarine;
+    background: bisque;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.boxhover {
+    background: azure;
 }
 
-.usermotto {
-  margin-top: 200px;
+.box .inner {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
 }
 
-.class{
-  color: aqua;
-  border: cornflowerblue 1px solid;
+.box .innerhover {
+    width: 100px;
+    height: 100px;
+    background-color: green;
 }
